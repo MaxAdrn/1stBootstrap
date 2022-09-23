@@ -1,0 +1,31 @@
+header{
+    border-top: 5px solid darkblue;
+}
+.card{
+    border: none;
+    /* margin: auto; */
+}
+.formulaire{
+    background-image: url('./sunrise.jpg');
+    min-height: 100vh;
+}
+section{
+    margin: 15vh auto;
+}
+footer{
+    display: grid;
+    grid-template-columns: 5% 30% 30% 30% 5%;
+}
+footer div{
+   grid-column-start: 2;
+}
+footer ul{
+    grid-column-start: 3;
+    display: flex;
+    margin: auto;
+}
+h2{
+    color: white;
+    margin: 5vh auto;
+    padding-top: 5vh;
+}

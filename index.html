@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Mon blog</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-around" id="navbarNavAltMarkup">
+                    <div class="navbar-nav w-100 justify-content-evenly">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#">Photos</a>
+                        <a class="nav-link" href="#">Portefolio</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section  class="d-flex justify-content-center align-items-center flex-column">
+        <h2>Photos</h2>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <div>
+            <div class="container">
+                <div class="row">
+                    <div class="card col" style="width: 18rem;">
+                        <img src="./a.jpg" class="card-img-top" alt="image A">
+                        <div class="card-body">
+                            <h5 class="card-title">Sun rise</h5>
+                            <p class="card-text">Photography</p>
+                        </div>
+                    </div>
+                    <div class="card col" style="width: 18rem;">
+                        <img src="./b.jpg" class="card-img-top" alt="image A">
+                        <div class="card-body">
+                            <h5 class="card-title">Mésange</h5>
+                            <p class="card-text">Photography</p>
+                        </div>
+                    </div>
+                    <div class="card col" style="width: 18rem;">
+                        <img src="./c.jpg" class="card-img-top" alt="image A">
+                        <div class="card-body">
+                            <h5 class="card-title">Faucon</h5>
+                            <p class="card-text">Photography</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card col" style="width: 18rem;">
+                        <img src="./d.jpg" class="card-img-top" alt="image A">
+                        <div class="card-body">
+                            <h5 class="card-title">Martin pêcheur</h5>
+                            <p class="card-text">Photography</p>
+                        </div>
+                    </div>
+                    <div class="card col" style="width: 18rem;">
+                        <img src="./e.jpg" class="card-img-top" alt="image A">
+                        <div class="card-body">
+                            <h5 class="card-title">Sun set</h5>
+                            <p class="card-text">Photography</p>
+                        </div>
+                    </div>
+                    <div class="card col" style="width: 18rem;">
+                        <img src="./f.jpg" class="card-img-top" alt="image A">
+                        <div class="card-body">
+                            <h5 class="card-title">Colibrie</h5>
+                            <p class="card-text">Photography</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="formulaire text-center">
+    
+        <!-- <img src="../assets/image/sunrise.jpg" alt="sunrise"> -->
+        <h2>CONTACT US</h2>
+        <form>
+            <div class="container w-75">
+                <div class="row">
+                    <div class="col flex-column justify-content-center">
+                        <div class="row mb-3">
+                            <input type="text" class="col form-control" placeholder="Name *" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="row mb-3">
+                            <input type="email" class=" col form-control" id="exampleFormControlInput1" placeholder="Email *">
+                        </div>
+                        <div class="row mb-3">
+                            <input type="tel" class="col form-control" placeholder="Name *" aria-label="Username" aria-describedby="basic-addon1"  placeholder="Phone *">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="mb-3">
+                            <textarea class="col form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Message *"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </section>
+
+    <div class="container">
+        <footer class="py-3 my-4 border-top">
+          <div class=>
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+            </a>
+            <span class="text-muted">Copyright &copy; Maxime AUDRAIN</span>
+            <i class="bi bi-instagram"></i>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-muted" href="#"><img src="./instagram.svg" alt="insta"></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><img src="./twitter.svg" alt="twitter"></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><img src="./facebook.svg" alt="facebook"></a></li>
+          </ul>
+        </footer>
+      </div>
+
+
+
+    <script src="../js/bootstrap.js"></script>
+</body>
+</html>
